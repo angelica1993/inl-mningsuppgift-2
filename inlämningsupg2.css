@@ -41,6 +41,23 @@ nav ul li a:hover {
     scale: 1.2;
     transition: 0.8;
 }
+/*Animation på texten under h1 som rör sig lite när sidan laddas om*/
+#animate {
+    animation: 3s forwards alternate animrubrik;
+    color: rgb(197, 88, 166);
+    font-size: 45px;    
+}
+
+@keyframes animrubrik {
+    0% {
+        margin-left: 30%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
 /*En header med bakgrundsbild*/
 .header {
     background-image: url(https://images.squarespace-cdn.com/content/v1/5a67a5aaf6576e18b159b925/1579637183502-S06N3F20I29A05G67CFF/h4.jpg);
