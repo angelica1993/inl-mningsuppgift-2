@@ -80,7 +80,47 @@ nav ul li a:hover {
     padding-left: 30px;
     padding-top: 340px;
 }
-
+/*Ett formulär för användaren att registrera sig ligger i headern*/
+.header form {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: rgb(203, 199, 192);
+    height: 310px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px;
+    border: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:rgb(209, 208, 207);
+    margin-right: 15px;
+    margin-top: 300px;
+    opacity: 0.85;
+}
+form p {
+    font-size: 17px;
+    padding-top: 10px;
+}
+form input {
+    background-color:  rgb(209, 208, 207);
+    font-size: 12px;
+}
+form label {
+    font-size: 13px;
+}
+button {
+    width:80px;
+    height: 25px;
+    margin-bottom: 5px;
+    align-items: center;
+    cursor: pointer;
+    background-color:  rgb(209, 208, 207);
+    border-radius: 5px;
+}
+button:hover {
+    color:rgb(197, 197, 197);
+}
 
 /*En sidebar under header med länkar och information*/
 .sidebar {
